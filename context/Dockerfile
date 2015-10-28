@@ -13,6 +13,4 @@ RUN git clone https://github.com/bethesque/pact_broker.git
 WORKDIR pact_broker/example
 RUN bundle
 
-EXPOSE 80
-
 CMD bundle exec rackup -o 0.0.0.0 -p 80
